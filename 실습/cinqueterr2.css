@@ -1,0 +1,119 @@
+body
+{
+    margin: 0 auto;
+    box-sizing: border-box ;
+}
+header
+{
+background: #7F7FD5;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+font-size: 3em;
+line-height: 2;
+text-align: center;
+font-weight: 400;
+color: white;
+text-shadow: 0 0 4px #f00;
+margin-bottom: 5px;
+}
+nav
+{
+    border: 1px solid black;
+}
+ul
+{
+    text-align: left;
+    padding: 0;
+    list-style: none;
+    line-height: 2;
+}
+li{
+height: 30px;
+padding: 0;    
+text-align: left;
+border-bottom: 1px solid black;
+}
+a
+{
+    display: block;
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    font-size: 18px;
+    padding-left: 20px;
+
+}
+a:hover
+{
+    color: red;
+}
+article
+{
+    margin-left: 3px;
+    border: 1px solid blue;
+    padding-left: 5px;
+}
+img
+{
+    width: 100%;
+}
+figure{
+    margin: 40px;
+}
+aside
+{
+    border: 1px solid blue;
+}
+footer
+{
+    padding-left: 5px;
+    border: 1px solid black;
+}
+figcaption
+{
+    text-align: center;
+    font-weight: 700;
+}
+@media screen and (min-width:700px){
+    aside
+    {
+        width: 70%;
+        height: 600px;
+        float: left;
+        border: 1px solid gray;
+    }
+    nav{
+        width: 29%;
+        height: 600px;
+        float: left;
+        border: 1px solid gray;
+    }
+    main{
+        width: 100%;
+        height: 100%;
+        border: 1px solid blue;
+    }
+}
+@media screen and (min-width:900px)
+{
+    nav
+    {
+        width: 19%;
+    }
+    aside
+    {
+        width: 40%;
+        border: 1px solid red;
+        float: left;
+    }
+    article
+    {
+        width: 40%;
+        height: 600px;
+        border: 1px solid red;
+    }
+    footer{
+        width: 100%;
+        height: 120px;
+    }
+}
