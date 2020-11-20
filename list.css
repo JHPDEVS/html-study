@@ -1,0 +1,30 @@
+ul{
+    background-color: turquoise;
+    border: 1px solid red;
+    list-style: none;
+    padding: 0;
+    overflow: hidden;
+}
+li{
+    border: 1px solid red;
+    float: left;
+    width: 100px;
+    
+    line-height: 2;
+    background-color: gold;
+    text-align: center;                                                                                                                                                                                         
+}
+a{
+    text-decoration: none;
+    display: block
+}
+a:hover
+{
+    color: white;
+    font-size: 15px;
+    background-color: red;
+}
+p{
+     clear: both;
+} 
+}

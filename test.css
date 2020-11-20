@@ -1,0 +1,43 @@
+.container
+{
+    width: 500px;
+    height: 500px;
+    background-color: gold;
+    position: relative;
+}
+body{
+    background-image: url(./1.jpg), url(./2.jpg);
+}
+.box    
+{
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+    position: absolute;
+    
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
+}
+.box:nth-of-type(1)
+{
+    /* position: relative; */
+    /* left: 100px;
+    top: 100px; */
+    z-index: 80;
+
+}
+.box:nth-of-type(3)
+{
+    /* position: relative; */
+    /* left: 100px;
+    top: 100px; */
+    z-index: 100;
+
+}
+    /* .box:nth-of-type(2)
+    {
+        position: absolute;
+    }
+    .box:nth-of-type(3)
+    {
+        position: absolute;
+    } */

@@ -1,0 +1,50 @@
+body{
+    width: 1000px;
+    margin: 0 auto;
+}
+*{
+    box-sizing: border-box;
+}
+header{
+    height: 80px;
+    background-color:  blue;
+    font-size: 3em;
+    text-align: center;
+    color: yellow;
+}
+.container
+{
+    height: 600px;
+    margin: 10px 0;
+    /* background-color: yellow; */
+}
+footer{
+    height: 50px;
+    margin: 10px 0;
+    border: 1px solid gray;
+}
+.container nav , .container aside{
+    width: 150px;
+    height: 600px;
+    float: left;
+    border: 1px solid gray;
+}
+.container p
+{
+    padding: 10px;
+}
+.container section{
+    width: 680px;
+    height: 600px;
+    margin: 0 10px;
+    float: left;
+    border: 1px solid gray;
+}
+.container .box
+{
+    width: 220px;
+    height: 480px;
+    float: left;
+    margin-left: 5px;
+    border: 1px solid red;
+}

@@ -1,0 +1,83 @@
+header {
+    margin: 0 auto;
+    width: 1000px;
+    font-weight: 900;
+    font-size: 3em;
+    text-align: center;
+    line-height: 100px;
+    color: blue;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#e4f5fc+0,9fd8ef+35,9fd8ef+35,bfe8f9+50,2ab0ed+100 */
+    background: #e4f5fc;
+    /* Old browsers */
+    background: -moz-linear-gradient(top, #e4f5fc 0%, #9fd8ef 35%, #9fd8ef 35%, #bfe8f9 50%, #2ab0ed 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #e4f5fc 0%, #9fd8ef 35%, #9fd8ef 35%, #bfe8f9 50%, #2ab0ed 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #e4f5fc 0%, #9fd8ef 35%, #9fd8ef 35%, #bfe8f9 50%, #2ab0ed 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e4f5fc', endColorstr='#2ab0ed', GradientType=0);
+    /* IE6-9 */
+
+}
+
+.box1>h3 {
+    text-align: center;
+    font-family: 'Jua', sans-serif;
+}
+
+h3 {
+    text-align: left;
+    font-family: 'Jua', sans-serif;
+    margin: 10px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    font-family: 'Gugi', cursive;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+ul>li:hover {
+    background-color: green;
+    color: black;
+
+}
+
+a:hover {
+    color: white;
+
+}
+
+.container {
+    height: 620px;
+}
+
+.box1 {
+    width: 150px;
+    height: 700px;
+    float: left;
+    border: 1px solid gray;
+    margin: 10px;
+}
+
+.box2 {
+    width: 300px;
+    height: 700px;
+    float: left;
+    border: 1px solid gray;
+    margin: 10px;
+}
+
+.box3 {
+    width: 300px;
+    height: 700px;
+    float: right;
+    border: 1px solid gray;
+    margin: 10px;
+}
