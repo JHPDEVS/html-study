@@ -1,0 +1,72 @@
+body
+{
+    margin: 0 auto;
+    width: 1100px;
+    height: 1200px;
+}
+.sidelink
+{
+    width: 180px;
+    height: 1200px;
+    float: left;
+    border: 1px solid gray;
+    background-color: orangered;
+    color: white;
+}
+.sidelink>.title
+{
+    margin: 10px 0;
+    font-size: 1.5em;
+    font-weight: 900;
+}
+.sidelink>.links
+{
+  margin-top: 50px;
+}
+.title
+{
+    text-align: center;
+}
+.sidelink>.links>a
+{
+    color: white;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 550;
+    line-height: 25px;
+}
+img
+{
+    width: 100%;
+    padding: 0;
+}
+h3 , p
+{
+    margin: 10px;
+}
+.articles
+{
+    width: 800px;
+    height: 250px;
+}
+.main
+{
+    border: 1px solid gray;
+    width: 900px;
+    height: 1200px;
+    float: left;
+}
+.ceo , .architect , .designer
+{
+    width: 270px;
+    height: 300px;
+    float: left;
+    margin: 10px;
+    border: 1px solid gray;
+}
+.footer
+{
+    width: 900px;
+}
