@@ -1,0 +1,104 @@
+body
+{
+    width: 1070px;
+    margin: 0 auto;
+}
+header
+{
+    font-size: 3em;
+    background-color: darkblue;
+    text-align: center;
+    color: white;
+    
+}
+.menubar>ul
+{
+ padding: 0;
+ list-style: none;
+ 
+}
+.menubar>ul>li
+{
+ display: inline-block;
+ width: 60px;
+}
+.menubar>ul>li>a
+{
+ text-decoration: none;
+ color: black;
+ font-weight: 700;
+}
+.menubar>ul>li>a:hover
+{
+ color: red;
+}
+.main>nav
+{
+    height: 500px;
+    width: 150px;
+    float: left;
+    border: 1px solid gray;
+}
+.main>nav>ul
+{
+list-style: none;
+padding: 0;
+}
+.main>nav>ul>li
+{
+text-align: center;
+}
+.main>nav>ul>li>a
+{
+text-decoration: none;
+color: black;
+font-weight: 900;
+}
+.main>nav>ul>li>a:hover
+{
+    display: block;
+background-color: green;
+color: white;
+}
+.main{
+    height: 500px;
+}
+section
+{
+    width: 760px;
+    height: 500px;
+    margin-left: 5px;
+    float: left;
+}
+.product
+{
+    width: 240px;
+    float: left;
+    height: 500px;
+    margin: 0 5px;
+    border: 1px solid gray;
+}
+aside
+{
+    width: 150px;
+    height: 500px;
+    float: left;
+    border: 1px solid gray;
+}
+p
+{
+    margin: 10px;
+}
+footer{
+    height: 50px;
+    margin: 10px 0;
+    border: 1px solid gray;
+    line-height: 30px;
+}
+img{
+    width: 100%;
+}
+figure
+{
+    margin: 10px;
+}
